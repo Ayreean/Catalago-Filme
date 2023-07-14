@@ -41,6 +41,82 @@
                 font-size: 14px;
                 line-height: 20px;
             }
+
+            .descricao_filme::first-letter {
+                text-transform: uppercase;
+            }
+
+            @media (max-width: 600px) {
+                .movie {
+                    width: 100%;
+                }
+            }
+
+            @media (min-width: 601px) and (max-width: 900px) {
+                .movie {
+                    width: 50%;
+                }
+            }
+
+            @media (min-width: 901px) and (max-width: 1200px) {
+                .movie {
+                    width: 33.33%;
+                }
+            }
+
+            @media (min-width: 1201px) {
+                .movie {
+                    width: 25%;
+                }
+            }
+
+            @descricao_filme (max-width: 600px) {
+                .descricao_filme {
+                    font-size: 12px;
+                }
+            }
+
+            @descricao_filme (min-width: 601px) and (max-width: 900px) {
+                .descricao_filme {
+                    font-size: 14px;
+                }
+            }
+
+            @descricao_filme (min-width: 901px) and (max-width: 1200px) {
+                .descricao_filme {
+                    font-size: 16px;
+                }
+            }
+
+            @descricao_filme (min-width: 1201px) {
+                .descricao_filme {
+                    font-size: 18px;
+                }
+            }
+
+            @titulo_filme (max-width: 600px) {
+                .titulo_filme {
+                    font-size: 16px;
+                }
+            }
+
+            @titulo_filme (min-width: 601px) and (max-width: 900px) {
+                .titulo_filme {
+                    font-size: 18px;
+                }
+            }
+
+            @titulo_filme (min-width: 901px) and (max-width: 1200px) {
+                .titulo_filme {
+                    font-size: 20px;
+                }
+            }
+
+            @titulo_filme (min-width: 1201px) {
+                .titulo_filme {
+                    font-size: 22px;
+                }
+            }
         </style>
 
         <script>
