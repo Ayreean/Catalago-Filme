@@ -19,5 +19,15 @@ fetch(
       `
             );
             container.insertAdjacentElement("beforeend", div);
+
         });
-    });
+        let images = document.querySelectorAll(".movie img");
+        images.forEach(function(image){
+            image.addEventListener("load", function(){
+                if(image.width > 300) {
+                    image.classList.add('large-image')
+                }
+            });
+        });
+
+    })

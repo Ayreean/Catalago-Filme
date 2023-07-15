@@ -10,12 +10,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: black;
+    background-color: black;;
 }
 
 .movie {
     width: 300px;
     margin: 10px;
+    margin-top: 0px;
+    margin-right: 10px;
     border: 1px solid #ccc;
     padding: 10px;
     color: white;
@@ -26,6 +28,287 @@
     background-color: white;
 }
 
+.movie img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.movie img:active {
+    opacity: 0.5;
+    cursor: pointer;
+    position: relative;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.movie img:focus {
+    opacity: 0.5;
+    cursor: pointer;
+    position: relative;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    transition: opacity 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 1200px) {
+    .movie img:hover {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .movie img:active {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .movie img:focus {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+    
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .movie img:hover {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .movie img:active {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .movie img:focus {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 31%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .movie img:hover {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .movie img:active {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 36%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .movie img:focus {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 36%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .movie img:hover {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 3px 3px;
+        font-size: 15px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+    
+@media screen and (max-width: 600px) {
+    .movie img:active {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 3px 3px;
+        font-size: 15px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .movie img:focus {
+        opacity: 0.5;
+        cursor: pointer;
+        position: relative;
+        top: 36%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: none;
+        padding: 3px 3px;
+        font-size: 15px;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+
+
 .titulo_filme {
     font-size: 20px;
     font-weight: bold;
@@ -35,6 +318,8 @@
 .descricao_filme {
     font-size: 14px;
     line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
 }
 
 .descricao_filme::first-letter {
@@ -45,11 +330,23 @@
     .movie {
         width: 100%;
     }
+    .titulo_filme {
+        font-size: 16px;
+    }
+    .descricao_filme {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
     .movie {
         width: 50%;
+    }
+    .titulo_filme {
+        font-size: 18px;
+    }
+    .descricao_filme {
+        font-size: 14px;
     }
 }
 
@@ -57,58 +354,22 @@
     .movie {
         width: 33.33%;
     }
+    .titulo_filme {
+        font-size: 20px;
+    }
+    .descricao_filme {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 1201px) {
     .movie {
         width: 25%;
     }
-}
-
-@descricao_filme (max-width: 600px) {
-    .descricao_filme {
-        font-size: 12px;
-    }
-}
-
-@descricao_filme (min-width: 601px) and (max-width: 900px) {
-    .descricao_filme {
-        font-size: 14px;
-    }
-}
-
-@descricao_filme (min-width: 901px) and (max-width: 1200px) {
-    .descricao_filme {
-        font-size: 16px;
-    }
-}
-
-@descricao_filme (min-width: 1201px) {
-    .descricao_filme {
-        font-size: 18px;
-    }
-}
-
-@titulo_filme (max-width: 600px) {
-    .titulo_filme {
-        font-size: 16px;
-    }
-}
-
-@titulo_filme (min-width: 601px) and (max-width: 900px) {
-    .titulo_filme {
-        font-size: 18px;
-    }
-}
-
-@titulo_filme (min-width: 901px) and (max-width: 1200px) {
-    .titulo_filme {
-        font-size: 20px;
-    }
-}
-
-@titulo_filme (min-width: 1201px) {
     .titulo_filme {
         font-size: 22px;
+    }
+    .descricao_filme {
+        font-size: 18px;
     }
 }
