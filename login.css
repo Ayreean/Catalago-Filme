@@ -46,3 +46,48 @@ input[type="submit"] {
     background-color: orange;
     cursor: pointer;
 }
+
+input[type="submit"]:hover {
+    background-color: #ff8c00;
+}
+
+input[type="submit"]:active {
+    background-color: #ff8c00;
+}
+
+input[type="submit"]:focus {
+    background-color: #ff8c00;
+}
+
+input[type="submit"]:visited {
+    background-color: #ff8c00;
+}
+
+input[type="submit"]:link {
+    background-color: #ff8c00;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+a:hover {
+    color: #ff8c00;
+}
+
+a:active {
+    color: #ff8c00;
+}
+
+a:focus {
+    color: #ff8c00;
+}
+
+a:visited {
+    color: #ff8c00;
+}
+
+/* Path: index.css */
+
