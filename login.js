@@ -1,4 +1,3 @@
-// login.js
 function login() {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
@@ -7,7 +6,7 @@ function login() {
   if (username === "admin" && password === "admin") {
     // Redirect to main screen
     console.log("Login successful");
-    window.location.href = "main.html";
+    window.location.assign("main.html");
   } else if (username === "admin") {
     alert("Senha invalida");
   } else if (password === "admin") {
